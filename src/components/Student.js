@@ -230,7 +230,7 @@ const Student = () => {
             <MenuItem value="IMTech ECE">IMTech ECE</MenuItem>
             <MenuItem value="PHD">PHD</MenuItem>
           </Select>
-          <Button variant="contained" color="secondary" onClick={handleClick}>
+          <Button variant="contained" color="secondary" onClick={handleClick} href="login.js">
             Submit
           </Button>
         </form>
